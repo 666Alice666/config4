@@ -36,9 +36,10 @@
 
 ### Запуск программы
 ```bash
-cd config\emulator var26\emulator var26
+cd config\honfig_hm_4_26\honfig_hm_4_26
 .venv\Scripts\activate
-python emulator.py --user test_user --tar virtual_file_system.tar --log log.xml --script startup_script.sh
+python assembler.py --input test_program.txt --output program.bin --log output_log.txt
+python interpreter.py --input program.bin --output memory_output.csv --memory 0 1023
 ```
 
 
