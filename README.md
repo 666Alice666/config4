@@ -39,46 +39,32 @@
 cd config\honfig_hm_4_26\honfig_hm_4_26
 .venv\Scripts\activate
 python assembler.py --input test_program.txt --output program.bin --log output_log.txt
-python interpreter.py --input program.bin --output memory_output.csv --memory 0 1023
+python interpreter.py --input program.bin --output memory_output.csv --memory 0 15
 ```
 
 
 ### Скрины работы программы
-- Комманда ``ls``
+- Файл ``test_program.txt``
   
-![image](https://github.com/user-attachments/assets/0b6c3c56-b466-4332-8f07-937806bb0c1a)
+![image](https://github.com/user-attachments/assets/5cb9d0b3-e7b9-4158-99d7-e1cab1d4bdf6)
 
 
 
-- Комманда ``cd``
+- Файл ``memory_output.csv``
 
-![image](https://github.com/user-attachments/assets/3b5f1243-ac0b-4fe1-a110-9540963df162)
-
-
-
-- Комманда ``date``
-
-![image](https://github.com/user-attachments/assets/87253ac6-209f-4662-8815-c070ba416c5c)
+![image](https://github.com/user-attachments/assets/bd2d490a-3ac1-4efb-b120-ebef25af9dbf)
 
 
-
-- Комманда ``touch``
-
-![image](https://github.com/user-attachments/assets/7db1a20c-5f08-4be6-a01a-e25b7c20a9ef)
-
-
-
-- Комманда ``exit``
-
-![image](https://github.com/user-attachments/assets/36ce3e15-3e37-48a8-acae-b7846d66781e)
 
 
 
 ### Результаты тестов
 
-![image](https://github.com/user-attachments/assets/08ce80fe-a008-48ae-86be-c4bbccc79e2e)
+![image](https://github.com/user-attachments/assets/0b9deea7-0f8e-4e4a-9a9f-9cd0c7c11b27)
+
 
 
 ### Логи
 
-![image](https://github.com/user-attachments/assets/6dc079c5-2b07-4c63-b8d7-5d75a91b1d04)
+![image](https://github.com/user-attachments/assets/fe2d94d9-964c-4b6b-8577-be4b87d7f722)
+
