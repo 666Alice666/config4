@@ -76,7 +76,7 @@ python interpreter.py --input program.bin --output memory_output.csv --memory 0 
 
 ### Результаты тестов
 
-![image](https://github.com/user-attachments/assets/c6a9cc05-af4b-41f4-8b53-41e93f4de6ac)
+![image](https://github.com/user-attachments/assets/08ce80fe-a008-48ae-86be-c4bbccc79e2e)
 
 
 ### Логи
